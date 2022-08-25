@@ -31,15 +31,15 @@
   background-color: transparent;
   color: var(--main-color);
   &:focus-visible {
-      outline-color: var(--accent-color);
-    }
-        &:not(:placeholder-shown):required:valid {
-          border-color: var(--accent-color);
-        }
-    
-        &:not(:placeholder-shown):required {
-          border-color: red;
-        }
+    outline-color: var(--accent-color);
+  }
+  &:not(:placeholder-shown):required:valid {
+    border-color: var(--accent-color);
+  }
+
+  &:not(:placeholder-shown):required {
+    border-color: red;
+  }
 }
 
 .subscribe__button {
@@ -61,8 +61,8 @@
   cursor: pointer;
   &:hover,
   &:focus {
-      background-color: #188ce8;
-    }
+    background-color: #188ce8;
+  }
 }
 
 .subscribe__icon {
